@@ -7,7 +7,6 @@ import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { ContactComponent } from './contact/contact.component';
-import { MoreDetailsComponent } from './more-details/more-details.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -18,7 +17,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     EducationComponent,
     WorkExperienceComponent,
     ContactComponent,
-    MoreDetailsComponent,
     ProjectsComponent
   ],
   imports: [
