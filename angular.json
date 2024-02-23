@@ -51,6 +51,7 @@
           },
           "configurations": {
             "production": {
+              "deleteOutputPath": true,
               "budgets": [
                 {
                   "type": "initial",
