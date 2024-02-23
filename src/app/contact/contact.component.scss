@@ -1,0 +1,32 @@
+.card-header{
+    background-color: #cfe2ff !important;
+
+    &__items{
+        >div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top: 10px;
+        }
+    }
+}
+
+.bi-linkedin {
+    align-items: center;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 100% !important;
+}
+
+.card{
+    display: flex;
+
+    .card-body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

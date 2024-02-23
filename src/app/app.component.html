@@ -1,0 +1,13 @@
+<!-- <app-nav-bar (moreDetail)="onNotify($event)"></app-nav-bar> -->
+
+<div class="heading">
+    <p>
+        From Passion to Profession: Unfolding My Story
+    </p>
+</div>
+<app-about (moreDetail)="onNotify($event)" *ngIf="!moreDetail"></app-about>
+<app-education *ngIf="!moreDetail"></app-education>
+<app-work-experience *ngIf="!moreDetail"></app-work-experience>
+<app-projects *ngIf="!moreDetail"></app-projects>
+<app-more-details *ngIf="moreDetail" (moreDetail)="onNotify($event)"></app-more-details>
+<app-contact></app-contact>
